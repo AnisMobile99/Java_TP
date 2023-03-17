@@ -23,13 +23,6 @@ public class Car extends Transport{
         this.modele = modele;
     }
 
-   /* public int getAnnee() {
-        return annee;
-    }
-
-    public void setAnnee(int annee) {
-        this.annee = annee;
-    }*/
 
     @Override
     public String toString() {
