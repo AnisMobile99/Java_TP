@@ -14,10 +14,6 @@ public class CarRental {
         this.listCar = new ArrayList<>();
     }
 
-    /*public void add(Car car){
-        Car newCar = Objects.requireNonNull(car, "Car must be not null");
-        this.listCar.add(newCar);
-    }*/
     public void add(Transport transport){
         Transport newtrans = Objects.requireNonNull(transport, "Car must be not null");
         this.listCar.add(newtrans);
