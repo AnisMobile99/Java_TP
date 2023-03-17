@@ -5,13 +5,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class Fifo {
-    /*
-    Question 1 :
-    - si la queue = 0 donc elle est vide
-    - si la tete = 0 c'est la premiere valeur
-    donc on rajoute toujours 1 quand on rajoute un element a la queue pour que la taille commence a 1
-     */
-
+    
     private int maxElem;
     private List<Object> file;
     private int end = 0;
